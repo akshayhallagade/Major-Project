@@ -7,32 +7,29 @@
 * Akshay Sontakke    
 * Ankit Dhongadi
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#Abstract">Abstract</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
+## #Content
+#### 1. Introduction
+   - Overview 
+   - Objective
+   - History
+   - Advantage 
+   - Application
+#### 2. Literature Review
+#### 3. Tools and Methodology
+   - Tools
+   - Methodology
+   - Library used
+#### 4. Design and Implementation
+   - Hardware Design
+   - Software (Code) Design
+   - Image Capture
+   - Working and Testing
+#### 5. Result and Conclusion
+   - Result
+   - Conclusion
+   - Future Scope
+#### 6. References
+#### 7. Photograph
 
 ## 1. Abstract
 
