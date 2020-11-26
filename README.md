@@ -93,6 +93,16 @@ But due to increasing Technology nowadays that rate is also increased drasticall
 
 - The use of Automatic target identification has changed the picture completely through real-time monitoring of the video footage with intelligent analysis of how security incidents can possibly occur and what needs to be done to prevent them from occurring.
 
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="6. Images/recongnize.jpg" alt="Logo" width="500" height="280">
+  </a>
+
+- Patterns of activities could also be observed and different deployment strategy can be implemented for different environments to single out criminal behaviour and thus secure neighbouring environment.
+
+- This whole project would also enable security officers to interpret big data in a qualitative manner and allow them to take crucial steps to protect both humans and valuable assets.
+
 <img src="6. Images/flow_chart.jpg" align="center" />
 <img src="6. Images/diagram1.jpg" align="center" />
 
