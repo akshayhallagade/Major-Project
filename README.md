@@ -53,7 +53,7 @@ It can be mounted on the house or any building and then it will track the moving
 
 
 <img src="6. Images/flow_chart.jpg" align="center" />
-<img src="6. Images/Untitled2.jpg" align="center" />
+<img src="6. Images/diagram1.jpg" align="center" />
 
 ## 3.Library Used 
 
