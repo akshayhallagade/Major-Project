@@ -5,7 +5,7 @@
 * Akhilesh Ramteke   
 * Akshay Hallagade  
 * Akshay Sontakke    
-* Ankit Dhongadi       
+* Ankit Dhongadi
 
 ## 1.Abstract
 
@@ -15,6 +15,9 @@ By using techniques from the field of artificial intelligence, often called mach
 ## 2. Introduction
 
 Over the centuries there have been many important innovations in weaponry: the spear, the bow and arrow, the catapult and other siege machinery, the gun and the cannon, steam vessels and metal-hulled ships, the submarine and the aircraft. This project mainly comprises of a camera-based weapon system that uses software to locate and attack a moving target. It will encompass a combination of hardware and software to match a mounted air soft weapon’s point of aim to the located target in the camera’s view.The basic idea of the turret is to put the laser module on top of one servo to provide horizontal rotation; then mount that package onto another servo placed at a 90degree angle to provide vertical movement. Using two servos, this add-on enables our camera to move left-to-right and up-and-down simultaneously, allowing us to detect and track objects, even if they were to go “out of frame”.
+
+<img src="6. Images/flow_chart.jpg" align="center" />
+<img src="6. Images/diagram.jpg" align="center" />
 
 ## 3.Library Used 
 
