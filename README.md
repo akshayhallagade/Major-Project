@@ -69,6 +69,29 @@ The first commercial use of the technology in the United States appeared in 1949
 
 But due to increasing Technology nowadays that rate is also increased drastically so to avoid such a suspicious activity in our environment to save our businesses when should switch to more advanced and smart surveillance systems which can monitor and act accordingly small businesses do not have fund to keep an extra employee or worker to monitor and handle surveillance system. So, they should switch to more advanced and AI based surveillance system that can-do equivalent work as an employee or a worker to handle the surveillance system without any extra cost it is the most cost-effective method for businesses. You can constantly monitor and eliminate the threat without direct contact with the threat.
 
+### 2.4. Advantages
+
+- Major advantage of utilizing artificial intelligence in security systems is its inherent ability to be scaled and therefore an inevitable efficiency and efficacy that simply cannot be achieved through human systems operation alone.
+
+- For the analysis on the ground, in real time AI in smart surveillance can also simplify the identification, processing and response to security threats.
+
+- Speed, accuracy, and efficiency are utmost compared to humans and existing technology security systems.
+
+- A huge advantage to autonomous systems is that it can simultaneously undertake multiple tasks, monitoring and protecting vast numbers of devices and systems.
+
+- By the use of laser guided to turret one can simply eliminate threat without the direct interaction with the trait itself.
+
+- Just moving the mouse, the pointer in the actual environment moves and with one click the user of the system can eliminate the threat.
+
+### 2.5 Applications
+
+- AI technologies bring superior face recognition, object recognition and event recognition capabilities, thus providing proactive and real-time security. This has a massive application for police forces as they need to identify criminals from within a crowd in large spaces.
+
+- CCTV monitoring is only as accurate and reliable as the person monitoring it on the screen. But using this project it will change the dimension for the user as it will automatically track the target.
+
+- The security of an organization, institution or simply any house or place is guaranteed.
+
+- The use of Automatic target identification has changed the picture completely through real-time monitoring of the video footage with intelligent analysis of how security incidents can possibly occur and what needs to be done to prevent them from occurring.
 
 <img src="6. Images/flow_chart.jpg" align="center" />
 <img src="6. Images/diagram1.jpg" align="center" />
