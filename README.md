@@ -7,14 +7,53 @@
 * Akshay Sontakke    
 * Ankit Dhongadi
 
-## 1.Abstract
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#Abstract">Abstract</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
+## 1. Abstract
 
 The goal of an Automatic target-recognition system is to detect and identify enemy targets. The use of computer processing to detect and identify targets automatically-is becoming critically important in several military applications. ATR systems can reduce the workload of tactical aircraft crews. Automatic target-recognition with weapon system will also be a crucial component of future "smart" weapons, missiles programmed to seek out and destroy specified targets. Furthermore, automatic target-recognition technology has potential commercial application in the field of robotic vision. The development of a comprehensive automatic target-recognition system is difficult because the system must handle a variety of targets under a variety of conditions. 
 By using techniques from the field of artificial intelligence, often called machine intelligence, we have developed an experimental automatic target-recognition system that processes image data from a laser radar and then automatically detects and recognizes specified targets in the data.
 
 ## 2. Introduction
+### 2.1. Overview
 
-Over the centuries there have been many important innovations in weaponry: the spear, the bow and arrow, the catapult and other siege machinery, the gun and the cannon, steam vessels and metal-hulled ships, the submarine and the aircraft. This project mainly comprises of a camera-based weapon system that uses software to locate and attack a moving target. It will encompass a combination of hardware and software to match a mounted air soft weapon’s point of aim to the located target in the camera’s view.The basic idea of the turret is to put the laser module on top of one servo to provide horizontal rotation; then mount that package onto another servo placed at a 90degree angle to provide vertical movement. Using two servos, this add-on enables our camera to move left-to-right and up-and-down simultaneously, allowing us to detect and track objects, even if they were to go “out of frame”.
+Over the centuries there have been many important innovations in weaponry: the spear, the bow and arrow, the catapult and other siege machinery, the gun and the cannon, steam vessels and metal-hulled ships, the submarine and the aircraft. This project mainly comprises of a camera-based weapon system that uses software to locate and attack a moving target. It will encompass a combination of hardware and software to match a mounted air soft weapon’s point of aim to the located target in the camera’s view.
+This Project mainly based on use of Two Module:
+
+* 2.1.1. Laser Guided Turret (Manually Controlled).
+* 2.1.2. Automatic (AI Based) Target Identification and Tracking.
+
+The basic idea of the turret is to put the laser module on top of one servo to provide horizontal rotation; then mount that package onto another servo placed at a 90degree angle to provide vertical movement. Using two servos, this add-on enables our camera to move left-to-right and up-and-down simultaneously, allowing us to detect and track objects, even if they were to go “out of frame”.
+
+This project provides protection to the area it covers and also do not rely on the use of direct intervention humans to do so. This system can be used to provide protection to Defense systems houses, banks, and offices etc. Usually the existing CCTV cameras only provide as footage of actual environment but it is usually recorded and we cannot over the threat, robbery, intruders or any suspicious activity in the mean actual time. But using this system we can avoid the threat without direct human intervention in real time environment we can eliminate the threat.
+
+It can be mounted on the house or any building and then it will track the moving object in this case in intraday or any suspicious activity and it eliminates it so the project has to part hardware and software the hardware parts is of two parts first is laser guided weapon to write and the second is high resolution camera and the server for the moment in 360 degrees and the programming including the Python Programming, C# and the Arduino codes for the smooth, error free execution of task.
+
 
 <img src="6. Images/flow_chart.jpg" align="center" />
 <img src="6. Images/diagram.jpg" align="center" />
