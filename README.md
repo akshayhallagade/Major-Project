@@ -59,6 +59,12 @@ The turret will be connected wirelessly to the control room surveillance system.
 
 The first video surveillance system was installed in 1942 in Nazi occupied Germany in order to observe the launch of long range guided ballistic missiles. Shortly thereafter, CCTV systems became available in the US as well, to both government entities and commercial users who wished to keep an eye on their business. At this point, however, the security camera system still needed the human touch; there was no technology available to record data, so someone had to monitor the screens for a security camera system to do any good.
 
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="6. Images/History.jpg" alt="Logo" width="500" height="280">
+  </a>
+   
 The first commercial use of the technology in the United States appeared in 1949, via a system called Vericon, and it was advertised as being “designed to keep an eye on dangerous industrial processes or bring a close-up of demonstrations and surgical operations to large numbers of students.” Video surveillance emerged in the 1970s as an industry with “a viable commercial technology to deliver safety and security,”
 
 But due to increasing Technology nowadays that rate is also increased drastically so to avoid such a suspicious activity in our environment to save our businesses when should switch to more advanced and smart surveillance systems which can monitor and act accordingly small businesses do not have fund to keep an extra employee or worker to monitor and handle surveillance system. So, they should switch to more advanced and AI based surveillance system that can-do equivalent work as an employee or a worker to handle the surveillance system without any extra cost it is the most cost-effective method for businesses. You can constantly monitor and eliminate the threat without direct contact with the threat.
