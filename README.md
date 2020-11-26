@@ -1,4 +1,5 @@
-# Major Project (Advanced Laser Guided Weapon System with Automatic Target Identification and Tracking.)
+# Advanced Laser Guided Weapon System with Automatic Target Identification and Tracking.
+> Major Model
 ## Submitted by
 * Akhil Menghare       
 * Akhilesh Ramteke   
