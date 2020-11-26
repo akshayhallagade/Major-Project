@@ -51,6 +51,18 @@ This project provides protection to the area it covers and also do not rely on t
 
 It can be mounted on the house or any building and then it will track the moving object in this case in intraday or any suspicious activity and it eliminates it so the project has to part hardware and software the hardware parts is of two parts first is laser guided weapon to write and the second is high resolution camera and the server for the moment in 360 degrees and the programming including the Python Programming, C# and the Arduino codes for the smooth, error free execution of task.
 
+### 2.2. Objective
+
+The turret will be connected wirelessly to the control room surveillance system. Using Processing language-based user interface and Arduino IDE, surveillance system will detect movement, track objects, adjust the aim of the turret, and fire at a moving target. The user interface provided in the surveillance system control room will display a live video stream that will act as the eyes of the gun. While in automatic firing mode the system will recognize a moving object, follow the target, and fire until the threat is neutralized or out of site. By pressing a button on the mouse, the turret will switch into manual control mode to avoid any unwanted causalities. Displayed on-screen of the connected device is a live video feed where the user can move the gun in any direction, they please in 360-degree perspective by the use of two servos one for pan and the another one for tilt each for 180 degree. With the live video feed streaming the user or administrator can fire at any object with good accuracy.
+
+### 2.3. History
+
+The first video surveillance system was installed in 1942 in Nazi occupied Germany in order to observe the launch of long range guided ballistic missiles. Shortly thereafter, CCTV systems became available in the US as well, to both government entities and commercial users who wished to keep an eye on their business. At this point, however, the security camera system still needed the human touch; there was no technology available to record data, so someone had to monitor the screens for a security camera system to do any good.
+
+The first commercial use of the technology in the United States appeared in 1949, via a system called Vericon, and it was advertised as being “designed to keep an eye on dangerous industrial processes or bring a close-up of demonstrations and surgical operations to large numbers of students.” Video surveillance emerged in the 1970s as an industry with “a viable commercial technology to deliver safety and security,”
+
+But due to increasing Technology nowadays that rate is also increased drastically so to avoid such a suspicious activity in our environment to save our businesses when should switch to more advanced and smart surveillance systems which can monitor and act accordingly small businesses do not have fund to keep an extra employee or worker to monitor and handle surveillance system. So, they should switch to more advanced and AI based surveillance system that can-do equivalent work as an employee or a worker to handle the surveillance system without any extra cost it is the most cost-effective method for businesses. You can constantly monitor and eliminate the threat without direct contact with the threat.
+
 
 <img src="6. Images/flow_chart.jpg" align="center" />
 <img src="6. Images/diagram1.jpg" align="center" />
