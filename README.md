@@ -7,36 +7,27 @@
 * Akshay Sontakke    
 * Ankit Dhongadi
 
-## #Content
-#### 1. Introduction
-   - Overview 
-   - Objective
-   - History
-   - Advantage 
-   - Application
-#### 2. Literature Review
-#### 3. Tools and Methodology
-   - Tools
-   - Methodology
-   - Library used
-#### 4. Design and Implementation
-   - Hardware Design
-   - Software (Code) Design
-   - Image Capture
-   - Working and Testing
-#### 5. Result and Conclusion
-   - Result
-   - Conclusion
-   - Future Scope
-#### 6. References
-#### 7. Photograph
+Table of contents
+=================
+
+<!--ts-->
+   * [0. Abstract](#1-abstract)
+   * [1. Introduction](#2-introduction)
+   * [2.	Literature Review](#3-literature-review)
+   * [3. Tool and Methodology](#4-tool-and-methodology)
+   * [4. Design and Implementation](#5-design-and-implementation)
+   * [5. Result and Conclusion](#6-result-and-conclusion)
+   * [6. References](#7-references)
+   * [7. Photograph](#8-photograph)
+<!--te-->
+
 
 ## 1. Abstract
 
 The goal of an Automatic target-recognition system is to detect and identify enemy targets. The use of computer processing to detect and identify targets automatically-is becoming critically important in several military applications. ATR systems can reduce the workload of tactical aircraft crews. Automatic target-recognition with weapon system will also be a crucial component of future "smart" weapons, missiles programmed to seek out and destroy specified targets. Furthermore, automatic target-recognition technology has potential commercial application in the field of robotic vision. The development of a comprehensive automatic target-recognition system is difficult because the system must handle a variety of targets under a variety of conditions. 
 By using techniques from the field of artificial intelligence, often called machine intelligence, we have developed an experimental automatic target-recognition system that processes image data from a laser radar and then automatically detects and recognizes specified targets in the data.
 
-## 2. Introduction
+## 2 Introduction
 ### 2.1. Overview
 
 Over the centuries there have been many important innovations in weaponry: the spear, the bow and arrow, the catapult and other siege machinery, the gun and the cannon, steam vessels and metal-hulled ships, the submarine and the aircraft. This project mainly comprises of a camera-based weapon system that uses software to locate and attack a moving target. It will encompass a combination of hardware and software to match a mounted air soft weapon’s point of aim to the located target in the camera’s view.
@@ -334,3 +325,6 @@ Lasers and face detection are also used to beam power up to high-altitude unmann
 12. https://docs.python.org/3/library/pickle.html
 13. https://pyserial.readthedocs.io/en/latest/pyserial.html#overview
 14. https://pypi.org/project/PyQt5/
+
+
+## 8.	Photograph
