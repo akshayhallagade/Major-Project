@@ -64,6 +64,7 @@ The first video surveillance system was installed in 1942 in Nazi occupied Germa
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="6. Images/History.jpg" alt="Logo" width="500" height="280">
   </a>
+</p>
    
 The first commercial use of the technology in the United States appeared in 1949, via a system called Vericon, and it was advertised as being “designed to keep an eye on dangerous industrial processes or bring a close-up of demonstrations and surgical operations to large numbers of students.” Video surveillance emerged in the 1970s as an industry with “a viable commercial technology to deliver safety and security,”
 
@@ -98,7 +99,7 @@ But due to increasing Technology nowadays that rate is also increased drasticall
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="6. Images/recongnize.jpg" alt="Logo" width="500" height="280">
   </a>
-
+</p>
 - Patterns of activities could also be observed and different deployment strategy can be implemented for different environments to single out criminal behaviour and thus secure neighbouring environment.
 
 - This whole project would also enable security officers to interpret big data in a qualitative manner and allow them to take crucial steps to protect both humans and valuable assets.
