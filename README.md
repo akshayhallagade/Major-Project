@@ -115,32 +115,32 @@ But due to increasing Technology nowadays that rate is also increased drasticall
 
 Laser technology has been used in military operations for applications including laser weapons, communication, remote sensing, information relaying, active imagers, illuminators, etc. Some of these systems have been experimentally demonstrated but none have been considered as a standard for military operations until date.
 
-##### 3.1. The primary demonstration of lasers in 1960,
+#### 3.1. The primary demonstration of lasers in 1960,
 when a light was flashed through a crystal structure, at California’s Hughes Research lab, it has almost taken fifty years to bring lasers for effective use. Laser technology has established groundbreaking engineering enhancements and scientific developments that have been built for numerous scientific, industrial, military, medical and commercial applications. Laser technology has brought great enhancements in surgery, data storage, photography, holography, spectroscopy and numerous other fields.
 
-##### 3.2. During the 1970se1990s,
+#### 3.2. During the 1970se1990s,
 Radio Frequency (RF) coupled with Digital Signal Processing (DSP) proved to be the most useful application for military warfare. Though, due to the constantly increasing demand for data capacity in electronic warfare, wider spectrum communications and broadband radar systems are needed. Radio Frequency isn’t capable of handling such high demands. For all such military applications, lasers are thought of as a decent alternative over Radio Frequency signals. Laser technology can handle the desired large capabilities and real-time dynamic range processing.
 
-##### 3.3. The 1970s,
+#### 3.3. The 1970s,
 US Air Force initiated a 405B program to develop a laser communication link (up to 1 Gbps) between geostationary satellite and ground station. The program successfully transmitted and detected a modulated laser beam by engineering feasibility models developed by McDonnell-Douglas.
 
-##### 3.4. Later, in 1975,
+#### 3.4. Later, in 1975,
 The space flight test system (SFTS) program demonstrated a high capacity transmission, both to a ground terminal and low-earth orbit (LEO) terminal.
 During this era, a vast development and proliferation of laser technology has been observed in the support of the defense programs.
 
-##### 3.5.In the1990s and early 2000s,
+#### 3.5.In the1990s and early 2000s,
 Various comprehensive studies were carried out for use of lasers to military missions such as laser mission study (1991), new world vistas (1995), cross-link studies for the follow-on early warning system (FEWS) program, which later became the space-based Infrared system (SBIRS, halted in 1993), laser com inter-satellite transmission experiment (LITE), terahertz optical reach back (THOR) (2002), optical RF combined link experiment (ORCLE) (2004) and transformational satellite communication system (TSAT) (canceled in 2009 due to cost and delay factors).
 
-##### 3.6. Later in 2010,
+#### 3.6. Later in 2010,
 Fast airborne laser communications optical node (FALCON) carried out research in collaboration with AFRL and Exiles, Inc. for developing 2.5 Gbps full duplex optical link between two aircraft.
 
-##### 3.7. In 2013,
+#### 3.7. In 2013,
 German-based company VI alight achieved success in demonstrating 1.25 Gbps link between a mobile jet aircraft and a transportable optical ground station (TOGS) over a distance of 50 km.
 
-##### 3.8. Robust Electric Laser Initiative (RELI)
+#### 3.8. Robust Electric Laser Initiative (RELI)
 This is a joint project operated by the department of Defence (DoD), Lockheed Martin, Northrop Grumman and Boeing for developing high-energy advanced electric laser technology for tactical operations. Their aim is to produce 100 kW laser while they have successfully demonstrated 30 kW laser power in 2013.
 
-##### 3.9. Boeing High Energy Laser Mobile Demonstrator.
+#### 3.9. Boeing High Energy Laser Mobile Demonstrator.
 The program was initiated to demonstrate that the army can eliminate threats such as rockets, mortar, and UAVs at the speed of light. In 2014, an experiment was carried out to generate a high energy laser weapon using a 10-kW solid state laser.
 
 By researching on all the similar existing technologies implemented successfully in the past, the designers of this system intend to integrate several of them to make a specific design. The system will have several functions, mainly as a defense gun to guard. This system can also be further optimized depending on its use but initially it can be used for local security by businesses or home owners. It can even be used in battlefields in order to protect a military base from incoming enemies and can also have the ability to successfully detect and intercept incoming planes, helicopters, and missiles. The system’s concept does have several uses and one can use it according to his needs.
@@ -174,34 +174,40 @@ The MLX90614 is an infrared thermometer for non-contact temperature measurements
 ### 4.2. Methodology
 Laser technology has observed a great advancement over the last few decades. This technology is used for a wide range of applications including medical sciences, military, industrial manufacturing, electronics, holography, spectroscopy, astronomy and much more. Military operations often demand a secure and timely transmission of a massive amount of information from one place to another. Until now, the military has relied on the radio spectrum for effective communication, which is vulnerable to security threats and susceptible to electromagnetic interference (EMI). Also, this spectrum is hard-pressed to meet the current bandwidth requirement for high-resolution images, on-air videoconferencing and real-time data transfer. Therefore, the focus has shifted to visible and infrared (IR) spectrum using laser technology which is capable of providing secure data transfer because of its immunity to EMI. The probability of intercepting a laser signal is very low due to its narrow beam divergence and coherent optical beam, making the laser a suitable candidate for secure military tactical operations. Besides the communication aspect, the highly directive nature of a laser beam is also used as a directed energy laser weapon. 
 
-## 5.Library Used 
+#### 4.2.1 Library Used 
 
-### 5.1 NUMPY
+##### 4.2.1.1 NUMPY
 
 Numpy makes the task easier. Numpy is a highly optimized library for numerical operations. It gives MATLAB-style syntax. All the OpenCV array structures are converted to-and-from Numpy arrays. So whatever operations you can do in Numpy, you can combine it with OpenCV, which increases number of weapons in your arsenal. Besides that, several other libraries like SciPy, Matplotlib which supports Numpy can be used with this.
 
 
-### 5.2 OPEN CV2
+##### 4.2.1.2 OPEN CV2
 
 OpenCV is the huge open-source library for the computer vision, machine learning, and image processing and now it plays a major role in real-time operation which is very important in today’s systems. By using it, one can process images and videos to identify objects, faces, or even handwriting of a human. When it integrated with various libraries, such as Numpy, python is capable of processing the OpenCV array structure for analysis. 
 
 
-### 5.3 PICKLE
+##### 4.2.1.3 PICKLE
 
 The pickle module implements binary protocols for serializing and de-serializing a Python object structure. “Pickling” is the process whereby a Python object hierarchy is converted into a byte stream and “unpickling” is the inverse operation, whereby a byte stream (from a binary file or bytes-like object) is converted back into an object hierarchy. Pickling (and unpickling) is alternatively known as “serialization”, “marshalling,” 1 or “flattening”; however, to avoid confusion, the terms used here are “pickling” and “unpickling”.
 
-
-### 5.4 PYSERIAL
+##### 4.2.1.4 PYSERIAL
 
 This library encapsulates the access for the serial port. It provides backend for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant system) and Iron Python. The module named “serial” automatically selects the appropriate backend.
 PySerial is a library which provides support for serial connections ("RS-232") over a variety of different devices: old-style serial ports, Bluetooth dongles, infra-red ports, and so on.
 
 
-### 5.5 PYQT-5
+##### 4.2.1.5 PYQT-5
 
 Qt is set of cross-platform C++ libraries that implement high-level APIs for accessing many aspects of modern desktop and mobile systems. These include location and positioning services, multimedia, NFC and Bluetooth connectivity, a Chromium based web browser, as well as traditional UI development.
 PyQt5 is a comprehensive set of Python bindings for Qt v5. It is implemented as more than 35 extension modules and enables Python to be used as an alternative application development language to C++ on all supported platforms including iOS and Android.
 PyQt5 may also be embedded in C++ based applications to allow users of those applications to configure or enhance the functionality of those applications.
 
-### 5.6. Haar cascade
+##### 4.2.1.6 Haar cascade
 Haar Cascade is a machine learning object detection algorithm used to identify objects in an image or video and based on the concept of  features proposed by Paul Viola and Michael Jonh. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images. The algorithm has four stages:
+
+1.	Haar Feature Selection
+2.	Creating Integral Images
+3.	Adaboost Training
+4.	Cascading Classifiers
+
+It is well known for being able to detect faces and body parts in an image, but can be trained to identify almost any object. Here we will work with face detection. Initially, the algorithm needs a lot of positive images (images of faces) and negative images (images without faces) to train the classifier. Then we need to extract features from it. For this, haar features shown in below image are used. They are just like our convolutional kernel. Each feature is a single value obtained by subtracting sum of pixels under white rectangle from sum of pixels under black rectangle.
