@@ -108,7 +108,7 @@ But due to increasing Technology nowadays that rate is also increased drasticall
 - This whole project would also enable security officers to interpret big data in a qualitative manner and allow them to take crucial steps to protect both humans and valuable assets.
 
 <img src="6. Images/flow_chart.jpg" align="center" />
-<img src="6. Images/diagram1.jpg" align="center" />
+
 
 
 ## 3.	Literature Review
@@ -203,6 +203,7 @@ PyQt5 is a comprehensive set of Python bindings for Qt v5. It is implemented as 
 PyQt5 may also be embedded in C++ based applications to allow users of those applications to configure or enhance the functionality of those applications.
 
 ##### 4.2.1.6 Haar cascade
+
 Haar Cascade is a machine learning object detection algorithm used to identify objects in an image or video and based on the concept of  features proposed by Paul Viola and Michael Jonh. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images. The algorithm has four stages:
 
 1.	Haar Feature Selection
@@ -211,3 +212,81 @@ Haar Cascade is a machine learning object detection algorithm used to identify o
 4.	Cascading Classifiers
 
 It is well known for being able to detect faces and body parts in an image, but can be trained to identify almost any object. Here we will work with face detection. Initially, the algorithm needs a lot of positive images (images of faces) and negative images (images without faces) to train the classifier. Then we need to extract features from it. For this, haar features shown in below image are used. They are just like our convolutional kernel. Each feature is a single value obtained by subtracting sum of pixels under white rectangle from sum of pixels under black rectangle.
+
+Now all possible sizes and locations of each kernel is used to calculate plenty of features. (Even a 24x24 window results over 160000 features). For each feature calculation, we need to find sum of pixels under white and black rectangles. To solve this, they introduced the integral images. It simplifies calculation of sum of pixels, how large may be the number of pixels, to an operation involving just four pixels. It makes things super-fast.
+
+## 5.	Design & Implementation
+At the conclusion of specifications, requirements and research, the project will progress to the hardware and software (Code) design stages. In this section, all design details, including diagrams and flowcharts for all sections, will be included. Hardware Block Diagram The hardware block diagram shown below illustrates the implementation of all hardware components.
+
+### 5.1.	Hardware design 
+It can be illustrated in the hardware block diagram that the central hardware controller for the turret can be found on the PCB. From the PCB, all motors receive the required modulated signal to operate, signals are received and transmitted in a serial manner from the tablet to the motor controller via XBee. It can be seen there are 5 major subsystems, camera, power, controller, motor, and tablet in which account for the final STATS design.
+
+<img src="6. Images/diagram1.jpg" align="center" />
+
+#### 5.1.1.	Turret Design
+
+The turret design will be broken down into three main sections consisting of the servo armature (including the weapon platform mount), the main housing, and the support legs. Based off of the requirements and specifications and research, the final design build will be modular, mobile, and accessory friendly. The aesthetic design will be robust, yet streamlined; representing a more militaristic look. For the initial design stage of the servo armature, material used will consist of wood. When an acceptable model is complete, the design will be represented in its final form using metal. The main housing will consist entirely of wood with all appropriate modular attachments for the camera and tablet. The support legs will be connected to the bottom of the housing and will be retractable in design. Material for the legs will consist of metal with rubber ends making contact with the ground surface for stability control. 
+
+#### 5.1.2 Motors (Servo Motors)
+
+Digital was chosen over analog for even faster response times and great performance out of the box with no additional programming needed. These servo motors are able to run on 4.8V to 7.4V. At 6 volts, the servo motors are capable 157 oz-in of power, which is close to 10lbs per inch. Additionally, the motor is rated at a speed of 0.20 seconds per 60-degree turn. Servo features include 180 degree turn radius, a neutral point, and multidirectional control. Two HS-5685MH servo motors will be integrating into the armature design; one for horizontal movement and another for vertical movement. The design of the trigger servo will not need to compete with the specifications of the directional servos. The main design feature for this servo is the ability to pull a trigger with up to 2lbs of force and come in a small form factor. Using servocity.com, an appropriate servo would be the Hitec HS-5485HB. This servo motor comes in the submicro size, comparable to a quarter in size. At 6V, this servo is able to produce over a pound of force with its metal gear box. The servo is also able to span over 120 degrees (60 degrees both clockwise and counterclockwise), which will be more than a sufficient margin for trigger pull. The design of the trigger servo will allow it to be attached close to the y-axis positioning servo to grant it access to the trigger of the mounted weapon platform.
+
+#### 5.1.3 	Laser Device 
+
+The system requirement to have a laser device was established early on in the project design. Initially it was thought that it would be implemented in some kind of range detection algorithm. With further research into the abilities of common airsoft rifles, the addition of range calculation to this project was deemed an unnecessary step. The distances that this turret is effective in is far less than the overall effective range of the airsoft gun. It was still decided that a laser should be implemented on the turret regardless, and would be used mainly for target testing. With the use of a weapon mounted laser, the accuracy and reliability of the tracking system was tested without the need for live fire. This enabled indoor calibration to be done to the system while the bugs were worked out of the code.
+
+### 5.2. Code Design
+
+The tablet device will be responsible for all the software requirements. By using the Atmel Mega 328 microcontroller the group was able to utilize the open-source Arduino library. There are abundant pre-existing Arduino libraries and functions that will help with this project’s goals. The tablet device will house all the software responsible for the turret project from tracking to automatic firing to manual control. The process begins with the camera sending the video stream to the tablet for user display. While in automatic firing mode, the tracking algorithms are waiting to encounter a moving target. Once that happens the range finder determines the target’s distance and sends the direction and speed signals to the microcontroller in order to move the servos. Once manual mode is activated, signals are sent to the microcontroller based on the user input.
+
+#### 5.2.1. Arduino IDE
+
+To program the custom-built microcontroller, the Arduino IDE version 1.5.6-r2 will be used, which is the latest version currently. This open source IDE from the Arduino website is written in Java. It can be run on Linux, Mac, and most importantly Windows, including 32-bit. By using the default environment, it makes writing code and uploading it to the board in an easy fashion that is aimed at beginner programmers. The language the user programs in C or C++. The IDE comes with a library called Wiring which makes many common input/outputs operations very simple to use. The basic Arduino code must have two function, setup and loop, described below:
+
+*	setup (): A function run once at the start of a program that can initialize settings.
+*	loop (): A function called repeatedly until the board powers off.
+
+#### 5.2.2. Targeting Control (Servo Control)
+
+The group was able to utilize the open-source Arduino environment and prebuilt libraries by creating a custom version of Arduino on PCB. One of those prebuilt libraries include the Servo library. This library allows up to 12 servos, each at various angles between 0 and 180 degrees. Below in Tables 4.2-4.7 are an outline of the various functions that will be applied from the Servo library. By applying these functions in the Arduino IDE, the below six methods are all that is needed for servo control.
+
+### 5.3. Image Capture 
+
+The very first step in this motion tracking system was to capture the images that are in the field of view of the turret system. This information is then processed by the image tracking software and used to send control signals to the servo motors as well as targeting data to the user interface so that a user can see what the tracking software can see. This is one of the first decisions that were required out of this project as well as one of the more daunting tasks to accomplish.
+
+#### 5.3.1. Camera Working
+
+The various options for the camera on the video subsystem brought forward a lot of difficult decisions for the group. Wireless cameras mostly seemed dependent on the manufacturer’s website in order to receive the video data wirelessly on a tablet. This did not seem like the best method of transmission due to the dependency on an internet connection. It seemed more logical to try and avoid using an established internet connection for device communication because the operating space of this system would most likely be outdoors. After researching multiple methods of sending video signal from a camera to a tablet separated by several meters of space, an Android phone camera along with an app called DroidCam was chosen as the best possible option. The phone used in this project is the Motorola Moto G. Any Android phone can be used but one group member allowed their phone to use for the demonstration. The Moto G has a 5 MP camera and shoots in 720p. The quality is downgraded by JMyron library to 480p for smoother transfer between the phone and tablet.
+
+#### 5.3.2. Tracking System Design 
+
+The decision between the multiple tracking methods came down to using open computer vision software and libraries or the Processing programming language and its open source libraries. The Processing programming language won out due to its versatility, abundant online support and the fact that the source code is written in Python and C++. The list of useful libraries that were used for this project included many options that aided in adding more complex abilities to this project. Among the multiple libraries that were used for this project are the JMyron library, the Blob Detection library, and the serial communications library Processing. Serial. When the user selects to run the Processing IDE as well as the associated program files the program must borrow heavily from the predefined libraries in order to function. The sequence of events that takes place after the user initiates the program is illustrated.
+
+### 5.4. Working and Testing
+
+The ability to track the objects that have been detected is the next logical requirement of this system. There must be a fast and accurate response from the tracking program as the objects/targets attempt to evade the system. If multiple targets are present then the system must follow the target that has priority, which is calculated by position in the field of view.
+
+1.	Power on the system and Laptop for live video feed. 
+2.	Open the Processing IDE and run the program and all related codes and programs.
+3.	Have volunteer (Intruder) move across the field of view at multiple speeds and patterns. 
+4.	Check agility of tracking system by having a volunteer move through the field of view in an varying path of varying speeds. 
+5.	Check the responsiveness of the system by having a volunteer run past the camera at maximum speed and varying distances. 
+6.	Have a volunteer come to a complete stop at any point during the pass and see if the tracking system maintains fire on target. 
+7.	Monitor the user interface to see that the targets are being followed while they remain in the field of view. 
+8.	Check to see if system resets to an origin at the center of the field of view after a preset time with no targets located. 
+9.	Move an inanimate object into the field of view and check to see how the tracking system reacts. 
+10.	Lock the target and try to shoot it using laser guided turret from live video-feed.
+
+##### Required Outcome: 
+Any targets detected in the field of view are followed by the turret system while the target remains moving in the viewing range. Targets are tracked and fired upon accurately while attempting evasive maneuvers. Targeting software detects threats even if they stop moving but are still in plain sight. Changes in background ignored after a period of time, items not matching target features not considered for attack.
+
+#### 5.4.2 Manual Testing
+
+1. Verify all power connections are working  
+2. Test the direction of the servos by using the directional keys on the user interface of live video.
+3. Move the turret via control from the live video feed to aim at a specified target 
+4. Pull the trigger of the laser guided turret using the fire command button on the IDE.
+5. Repeat steps 3 through 4 using a moving target 
+
+##### Expected Result:
+The sentry turret system is able to effectively track and fire upon a target with minimal delay time and with maximum accuracy. 
