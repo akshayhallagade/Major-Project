@@ -226,7 +226,7 @@ It can be illustrated in the hardware block diagram that the central hardware co
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="6. Images/layout1.png" alt="Logo" width="750">
+    <img src="6. Images/diagram1.png" alt="Logo" width="750">
   </a>
 </p>
 
