@@ -13,7 +13,7 @@ Table of contents
 <!--ts-->
    * [0. Abstract](#1-abstract)
    * [1. Introduction](#2-introduction)
-   * [2.	Literature Review](#3-literature-review)
+   * [2. Literature Review](#3-literature-review)
    * [3. Tool and Methodology](#4-tool-and-methodology)
    * [4. Design and Implementation](#5-design-and-implementation)
    * [5. Result and Conclusion](#6-result-and-conclusion)
@@ -102,7 +102,7 @@ But due to increasing Technology nowadays that rate is also increased drasticall
 
 
 
-## 3.	Literature Review
+## 3 Literature Review
 
 Laser technology has been used in military operations for applications including laser weapons, communication, remote sensing, information relaying, active imagers, illuminators, etc. Some of these systems have been experimentally demonstrated but none have been considered as a standard for military operations until date.
 
@@ -136,7 +136,7 @@ The program was initiated to demonstrate that the army can eliminate threats suc
 
 By researching on all the similar existing technologies implemented successfully in the past, the designers of this system intend to integrate several of them to make a specific design. The system will have several functions, mainly as a defense gun to guard. This system can also be further optimized depending on its use but initially it can be used for local security by businesses or home owners. It can even be used in battlefields in order to protect a military base from incoming enemies and can also have the ability to successfully detect and intercept incoming planes, helicopters, and missiles. The system’s concept does have several uses and one can use it according to his needs.
 
-## 4. Tool and Methodology
+## 4 Tool and Methodology
 ### 4.1. Tools
 #### 4.1.1.	MG996R Servo Motor
 
@@ -206,7 +206,7 @@ It is well known for being able to detect faces and body parts in an image, but 
 
 Now all possible sizes and locations of each kernel is used to calculate plenty of features. (Even a 24x24 window results over 160000 features). For each feature calculation, we need to find sum of pixels under white and black rectangles. To solve this, they introduced the integral images. It simplifies calculation of sum of pixels, how large may be the number of pixels, to an operation involving just four pixels. It makes things super-fast.
 
-## 5.	Design & Implementation
+## 5 Design and Implementation
 At the conclusion of specifications, requirements and research, the project will progress to the hardware and software (Code) design stages. In this section, all design details, including diagrams and flowcharts for all sections, will be included. Hardware Block Diagram The hardware block diagram shown below illustrates the implementation of all hardware components.
 
 ### 5.1.	Hardware design 
@@ -283,7 +283,7 @@ Any targets detected in the field of view are followed by the turret system whil
 The sentry turret system is able to effectively track and fire upon a target with minimal delay time and with maximum accuracy. 
 
 
-## 6.	Result, Conclusion and Future Scope
+## 6 Result and Conclusion
 
 ### 6.1 Result
 
@@ -309,7 +309,7 @@ This offers an interactive and collaborative environment for military officials,
 
 Lasers and face detection are also used to beam power up to high-altitude unmanned aircraft to periodically recharge them, in order to stay aloft for longer durations of time. The narrow divergence of the laser beam allows most of the energy to be collected by the swarming unmanned aircraft, to ensure their continuous fly at high altitudes. These unmanned vehicles could provide tactical surveillance, telecommunication relay links or temporary navigation support during war missions. They could also be used to fly guard duty over a military combat area or fly in front of a convoy to warn against an ambush. Power beaming can be carried out using either a ground-based or space-based laser. While many challenges remain in ‘ground-to-space’ or ‘space-to-ground’ power beaming, ‘space-to-space’ power beaming could be less complex and transformational. The space-based laser has lesser power requirements as it has an advantage of avoiding losses due to atmospheric absorption, scattering and turbulence. Laser power beamers are also used for power transfer in space or at remote sites, where other sources of energy are not readily available. This technology is currently in a development stage to support future space missions.
 
-## 7. References
+## 7 References
 
 1.	Muhammad Labiyb "Deep Features Representation for Automatic Targeting System of Gun Turret", Electronics Symposium on Engineering Technology and Applications (IES-ETA) 2018 International, pp. 107-112, 2018.
 2.	Hidayatulloh, A. Khoirul Rizal "Towards an Automatic Aircraft Wreckage Detection Using A Monocular Camera of UAV", 2019 International, pp. 501-504, 2019. (Papers)
@@ -327,4 +327,4 @@ Lasers and face detection are also used to beam power up to high-altitude unmann
 14. https://pypi.org/project/PyQt5/
 
 
-## 8.	Photograph
+## 8 Photograph
