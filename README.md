@@ -330,3 +330,9 @@ Lasers and face detection are also used to beam power up to high-altitude unmann
 14. [https://pypi.org/project/PyQt5/](https://pypi.org/project/PyQt5/)
 
 ## 8 Photograph
+
+<p float="left">
+  <img src="6. Images/IMG20200828105034.jpg" width="480" />
+  <img src="6. Images/IMG20200828105722.jpg" width="480" />
+</p>
+<img src="6. Images/IMG20200828105544.jpg" align="center" width="480" />
