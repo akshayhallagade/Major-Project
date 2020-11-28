@@ -2,6 +2,14 @@ Advanced Laser Guided Weapon System with Automatic Target Identification and Tra
 ================
 > Major Model
 
+
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="6. Images/IMG20200828105544.jpg" alt="Logo" width="400">
+  </a>
+</p>
+
 Submitted by
 ================
 * Akhil Menghare       
