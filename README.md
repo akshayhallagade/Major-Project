@@ -53,11 +53,11 @@ The first video surveillance system was installed in 1942 in Nazi occupied Germa
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="6. Images/History.jpg" alt="Logo" width="500" height="280">
+    <img src="6. Images/History.jpg" alt="Logo" width="600" height="340">
   </a>
    <h5 align="center">Fig.1.1 : First surveillance system in Germany</h5>
 </p>
-   
+ 
 The first commercial use of the technology in the United States appeared in 1949, via a system called Vericon, and it was advertised as being “designed to keep an eye on dangerous industrial processes or bring a close-up of demonstrations and surgical operations to large numbers of students.” Video surveillance emerged in the 1970s as an industry with “a viable commercial technology to deliver safety and security,”
 
 But due to increasing Technology nowadays that rate is also increased drastically so to avoid such a suspicious activity in our environment to save our businesses when should switch to more advanced and smart surveillance systems which can monitor and act accordingly small businesses do not have fund to keep an extra employee or worker to monitor and handle surveillance system. So, they should switch to more advanced and AI based surveillance system that can-do equivalent work as an employee or a worker to handle the surveillance system without any extra cost it is the most cost-effective method for businesses. You can constantly monitor and eliminate the threat without direct contact with the threat.
