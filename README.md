@@ -223,7 +223,12 @@ At the conclusion of specifications, requirements and research, the project will
 ### 5.1.	Hardware design 
 It can be illustrated in the hardware block diagram that the central hardware controller for the turret can be found on the PCB. From the PCB, all motors receive the required modulated signal to operate, signals are received and transmitted in a serial manner from the tablet to the motor controller via XBee. It can be seen there are 5 major subsystems, camera, power, controller, motor, and tablet in which account for the final STATS design.
 
-<img src="6. Images/diagram1.jpg" align="center" />
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="6. Images/layout1.png" alt="Logo" width="750">
+  </a>
+</p>
 
 #### 5.1.1.	Turret Design
 
