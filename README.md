@@ -314,11 +314,11 @@ Lasers and face detection are also used to beam power up to high-altitude unmann
 
 ## 7 References
 
-1. [Muhammad Labiyb "Deep Features Representation for Automatic Targeting System of Gun Turret", Electronics Symposium on Engineering Technology and Applications (IES-ETA) 2018 International, pp. 107-112, 2018.](#)
-2. [Hidayatulloh, A. Khoirul Rizal "Towards an Automatic Aircraft Wreckage Detection Using A Monocular Camera of UAV", 2019 International, pp. 501-504, 2019. (Papers)](#)
+1. [Muhammad Labiyb "Deep Features Representation for Automatic Targeting System of Gun Turret", Electronics Symposium on Engineering Technology and Applications (IES-ETA) 2018 International, pp. 107-112, 2018.]()
+2. [Hidayatulloh, A. Khoirul Rizal "Towards an Automatic Aircraft Wreckage Detection Using A Monocular Camera of UAV", 2019 International, pp. 501-504, 2019. (Papers)]()
 3. [https://www.britannica.com/technology/military-technology](https://www.britannica.com/technology/military-technology)
 4. [https://www.newscientist.com/article/dn9980-introduction-weapons-technology/](https://www.newscientist.com/article/dn9980-introduction-weapons-technology/)
-5. [https://statetechmagazine.com/article/2019/04/how-surveillance-cameras-evolved-curiosity-ubiquity](#https://statetechmagazine.com/article/2019/04/how-surveillance-cameras-evolved-curiosity-ubiquity)
+5. [https://statetechmagazine.com/article/2019/04/how-surveillance-cameras-evolved-curiosity-ubiquity](https://statetechmagazine.com/article/2019/04/how-surveillance-cameras-evolved-curiosity-ubiquity)
 6. [https://www.farsight.co.uk/about-us/history/](https://www.farsight.co.uk/about-us/history/)
 7. [https://www.viaresource.com/blog/advantages-and-disadvantages-of-an-artificial-intelligence-security-system](https://www.viaresource.com/blog/advantages-and-disadvantages-of-an-artificial-intelligence-security-system)
 8. [https://memoori.com/new-tools-opened-opportunity-bring-ai-video-surveillance-market/](https://memoori.com/new-tools-opened-opportunity-bring-ai-video-surveillance-market/)
